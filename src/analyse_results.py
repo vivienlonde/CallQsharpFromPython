@@ -1,6 +1,6 @@
 import qsharp
 
-qsharp.init(project_root = '../Grover')
+qsharp.init(project_root = '../CallQsharpFromPython')
 
 result = qsharp.eval("Grover.Main()")
 
